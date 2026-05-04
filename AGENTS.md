@@ -6,6 +6,8 @@ This is a Supabase-focused project. Root-level `package.json` and `package-lock.
 
 Keep each edge function self-contained: place request handling, validation, and function-specific helpers inside its function directory unless shared code is introduced intentionally.
 
+Use SUPABASE_SCHEMA.md for table overview
+
 ## Build, Test, and Development Commands
 
 - `npm install`: install the local Supabase CLI dependency from `package-lock.json`.
